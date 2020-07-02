@@ -1,0 +1,588 @@
+  frequencies: [
+            
+      /* MURS */ 
+      
+    {
+      id: 1,
+      freq_type: "MURS",
+      freq_number: 151.82,
+      channel_name: "MURS 1",
+      channel_number: 1,
+      power: "2 W",
+      bandwidth: "11.25 kHz",
+      deviation: "2.5 kHz"    
+    },
+    {
+      id: 2,
+      freq_type: "MURS",
+      freq_number: 151.88,
+      channel_name: "MURS 2",
+      channel_number: 2,
+      power: "2 W",
+      bandwidth: "11.25 kHz",
+      deviation: "2.5 kHz"    
+    },
+    {
+      id: 3,
+      freq_type: "MURS",
+      freq_number: 151.94,
+      channel_name: "MURS 3",
+      channel_number: 3,
+      power: "2 w",
+      bandwidth: "11.25 kHz",
+      deviation: "2.5 kHz"    
+    },
+    {
+      id: 4,
+      freq_type: "MURS",
+      freq_number: 154.57,
+      channel_name: "Blue Dot",
+      channel_number: 4,
+      power: "2 W",
+      bandwidth: "20 kHz",
+      deviation: "5 kHz"    
+    },
+    {
+      id: 5,
+      freq_type: "MURS",
+      freq_number: 154.60,
+      channel_name: "Green Dot",
+      channel_number: 5,
+      power: "2 W",
+      bandwidth: "20 kHz",
+      deviation: "5 kHz"    
+    },
+      
+      /* FRS */ 
+      
+    {
+      id: 6,
+      freq_type: "FRS",
+      freq_number: 462.5625,
+      channel_name: null,
+      channel_number: 1,
+      power: "2 W",
+      bandwidth: "12.5 kHz",
+      deviation: "2.5 kHz"    
+    },
+    {
+      id: 7,
+      freq_type: "FRS",
+      freq_number: 462.5875,
+      channel_name: null,
+      channel_number: 2,
+      power: "2 W",
+      bandwidth: "12.5 kHz",
+      deviation: "2.5 kHz"    
+    },
+    {
+      id: 8,
+      freq_type: "FRS",
+      freq_number: 462.6125,
+      channel_name: null,
+      channel_number: 3,
+      power: "2 W",
+      bandwidth: "12.5 kHz",
+      deviation: "2.5 kHz"    
+    },
+    {
+      id: 9,
+      freq_type: "FRS",
+      freq_number: 462.6375,
+      channel_name: null,
+      channel_number: 4,
+      power: "2 W",
+      bandwidth: "12.5 kHz",
+      deviation: "2.5 kHz"    
+    },
+    {
+      id: 10,
+      freq_type: "FRS",
+      freq_number: 462.6625,
+      channel_name: null,
+      channel_number: 5,
+      power: "2 W",
+      bandwidth: "12.5 kHz",
+      deviation: "2.5 kHz"    
+    },
+    {
+      id: 11,
+      freq_type: "FRS",
+      freq_number: 462.6875,
+      channel_name: null,
+      channel_number: 6,
+      power: "2 W",
+      bandwidth: "12.5 kHz",
+      deviation: "2.5 kHz"    
+    },
+    {
+      id: 12,
+      freq_type: "FRS",
+      freq_number: 462.7125,
+      channel_name: null,
+      channel_number: 7,
+      power: "2 W",
+      bandwidth: "12.5 kHz",
+      deviation: "2.5 kHz"    
+    },
+    {
+      id: 13,
+      freq_type: "FRS",
+      freq_number: 467.5625,
+      channel_name: null,
+      channel_number: 8,
+      power: "0.5 W",
+      bandwidth: "12.5 kHz",
+      deviation: "2.5 kHz"    
+    },
+    {
+      id: 14,
+      freq_type: "FRS",
+      freq_number: 467.5875,
+      channel_name: null,
+      channel_number: 9,
+      power: "0.5 W",
+      bandwidth: "12.5 kHz",
+      deviation: "2.5 kHz"    
+    },
+    {
+      id: 15,
+      freq_type: "FRS",
+      freq_number: 467.6125,
+      channel_name: null,
+      channel_number: 10,
+      power: "0.5 W",
+      bandwidth: "12.5 kHz",
+      deviation: "2.5 kHz"    
+    },
+    {
+      id: 16,
+      freq_type: "FRS",
+      freq_number: 467.6375,
+      channel_name: null,
+      channel_number: 11,
+      power: "0.5 W",
+      bandwidth: "12.5 kHz",
+      deviation: "2.5 kHz"    
+    },
+    {
+      id: 17,
+      freq_type: "FRS",
+      freq_number: 467.6625,
+      channel_name: null,
+      channel_number: 12,
+      power: "0.5 W",
+      bandwidth: "12.5 kHz",
+      deviation: "2.5 kHz"    
+    },
+    {
+      id: 18,
+      freq_type: "FRS",
+      freq_number: 467.6875,
+      channel_name: null,
+      channel_number: 13,
+      power: "0.5 W",
+      bandwidth: "12.5 kHz",
+      deviation: "2.5 kHz"    
+    },
+    {
+      id: 19,
+      freq_type: "FRS",
+      freq_number: 467.7125,
+      channel_name: null,
+      channel_number: 14,
+      power: "0.5 W",
+      bandwidth: "12.5 kHz",
+      deviation: "2.5 kHz"    
+    },
+    {
+      id: 20,
+      freq_type: "FRS",
+      freq_number: 462.5500,
+      channel_name: null,
+      channel_number: 15,
+      power: "2 watts",
+      bandwidth: "12.5 kHz",
+      deviation: "2.5 kHz"    
+    },
+    {
+      id: 21,
+      freq_type: "FRS",
+      freq_number: 462.5750,
+      channel_name: null,
+      channel_number: 16,
+      power: "2 W",
+      bandwidth: "12.5 kHz",
+      deviation: "2.5 kHz"    
+    },
+    {
+      id: 22,
+      freq_type: "FRS",
+      freq_number: 462.6000,
+      channel_name: null,
+      channel_number: 17,
+      power: "2 W",
+      bandwidth: "12.5 kHz",
+      deviation: "2.5 kHz"    
+    },
+      
+    {
+      id: 23,
+      freq_type: "FRS",
+      freq_number: 462.6250,
+      channel_name: null,
+      channel_number: 18,
+      power: "2 W",
+      bandwidth: "12.5 kHz",
+      deviation: "2.5 kHz"    
+    },
+      
+    {
+      id: 24,
+      freq_type: "FRS",
+      freq_number: 462.6500,
+      channel_name: null,
+      channel_number: 19,
+      power: "2 W",
+      bandwidth: "12.5 kHz",
+      deviation: "2.5 kHz"    
+    },
+      
+    {
+      id: 25,
+      freq_type: "FRS",
+      freq_number: 462.6750,
+      channel_name: null,
+      channel_number: 20,
+      power: "2 W",
+      bandwidth: "12.5 kHz",
+      deviation: "2.5 kHz"    
+    },
+      
+    {
+      id: 26,
+      freq_type: "FRS",
+      freq_number: 462.7000,
+      channel_name: null,
+      channel_number: 21,
+      power: "2 W",
+      bandwidth: "12.5 kHz",
+      deviation: "2.5 kHz"    
+    },
+      
+    {
+      id: 27,
+      freq_type: "FRS",
+      freq_number: 462.7250 ,
+      channel_name: null,
+      channel_number: 22,
+      power: "2 W",
+      bandwidth: "12.5 kHz",
+      deviation: "2.5 kHz"    
+    },
+      
+      /* GMRS */ 
+      
+    {
+      id: 28,
+      freq_type: "GMRS",
+      freq_number: 462.5625,
+      channel_name: null,
+      channel_number: 1,
+      power: "5 W",
+      bandwidth: "20 kHz",
+      deviation: "2.5 kHz"    
+    },
+    {
+      id: 29,
+      freq_type: "GMRS",
+      freq_number: 462.5875,
+      channel_name: null,
+      channel_number: 2,
+      power: "5 W",
+      bandwidth: "20 kHz",
+      deviation: "2.5 kHz"    
+    },
+    {
+      id: 30,
+      freq_type: "GMRS",
+      freq_number: 462.6125,
+      channel_name: null,
+      channel_number: 3,
+      power: "5 W",
+      bandwidth: "20 kHz",
+      deviation: "2.5 kHz"    
+    },
+    {
+      id: 31,
+      freq_type: "GMRS",
+      freq_number: 462.6375,
+      channel_name: null,
+      channel_number: 4,
+      power: "5 W",
+      bandwidth: "20 kHz",
+      deviation: "2.5 kHz"    
+    },
+    {
+      id: 32,
+      freq_type: "GMRS",
+      freq_number: 462.6625,
+      channel_name: null,
+      channel_number: 5,
+      power: "5 W",
+      bandwidth: "20 kHz",
+      deviation: "2.5 kHz"    
+    },
+    {
+      id: 33,
+      freq_type: "GMRS",
+      freq_number: 462.6875,
+      channel_name: null,
+      channel_number: 6,
+      power: "5 W",
+      bandwidth: "20 kHz",
+      deviation: "2.5 kHz"    
+    },
+    {
+      id: 34,
+      freq_type: "GMRS",
+      freq_number: 462.7125,
+      channel_name: null,
+      channel_number: 7,
+      power: "5 W",
+      bandwidth: "20 kHz",
+      deviation: "2.5 kHz"    
+    },
+    {
+      id: 35,
+      freq_type: "GMRS",
+      freq_number: 467.5625,
+      channel_name: null,
+      channel_number: 8,
+      power: "0.5 W",
+      bandwidth: "12.5 kHz",
+      deviation: "2.5 kHz"    
+    },
+    {
+      id: 36,
+      freq_type: "GMRS",
+      freq_number: 467.5875,
+      channel_name: null,
+      channel_number: 9,
+      power: "0.5 W",
+      bandwidth: "12.5 kHz",
+      deviation: "2.5 kHz"    
+    },
+    {
+      id: 37,
+      freq_type: "GMRS",
+      freq_number: 467.6125,
+      channel_name: null,
+      channel_number: 10,
+      power: "0.5 W",
+      bandwidth: "12.5 kHz",
+      deviation: "2.5 kHz"    
+    },
+    {
+      id: 38,
+      freq_type: "GMRS",
+      freq_number: 467.6375,
+      channel_name: null,
+      channel_number: 11,
+      power: "0.5 W",
+      bandwidth: "12.5 kHz",
+      deviation: "2.5 kHz"    
+    },
+    {
+      id: 39,
+      freq_type: "GMRS",
+      freq_number: 467.6625,
+      channel_name: null,
+      channel_number: 12,
+      power: "0.5 W",
+      bandwidth: "12.5 kHz",
+      deviation: "2.5 kHz"    
+    },
+    {
+      id: 40,
+      freq_type: "GMRS",
+      freq_number: 467.6875,
+      channel_name: null,
+      channel_number: 13,
+      power: "0.5 W",
+      bandwidth: "12.5 kHz",
+      deviation: "2.5 kHz"    
+    },
+    {
+      id: 41,
+      freq_type: "GMRS",
+      freq_number: 467.7125,
+      channel_name: null,
+      channel_number: 14,
+      power: "0.5 W",
+      bandwidth: "12.5 kHz",
+      deviation: "2.5 kHz"    
+    },
+    {
+      id: 42,
+      freq_type: "GMRS",
+      freq_number: 462.5500,
+      channel_name: null,
+      channel_number: 15,
+      power: "50 W",
+      bandwidth: "20 kHz",
+      deviation: "5 kHz"    
+    },
+    {
+      id: 43,
+      freq_type: "GMRS",
+      freq_number: 462.5750,
+      channel_name: null,
+      channel_number: 16,
+      power: "50 W",
+      bandwidth: "20 kHz",
+      deviation: "5 kHz"    
+    },
+    {
+      id: 44,
+      freq_type: "GMRS",
+      freq_number: 462.6000,
+      channel_name: null,
+      channel_number: 17,
+      power: "50 W",
+      bandwidth: "20 kHz",
+      deviation: "5 kHz"    
+    },
+      
+    {
+      id: 45,
+      freq_type: "GMRS",
+      freq_number: 462.6250,
+      channel_name: null,
+      channel_number: 18,
+      power: "50 W",
+      bandwidth: "20 kHz",
+      deviation: "5 kHz"    
+    },
+    {
+      id: 46,
+      freq_type: "GMRS",
+      freq_number: 462.6500,
+      channel_name: null,
+      channel_number: 19,
+      power: "50 W",
+      bandwidth: "20 kHz",
+      deviation: "5 kHz"    
+    },
+    {
+      id: 47,
+      freq_type: "GMRS",
+      freq_number: 462.6750,
+      channel_name: null,
+      channel_number: 20,
+      power: "50 W",
+      bandwidth: "20 kHz",
+      deviation: "5 kHz"    
+    },
+    {
+      id: 48,
+      freq_type: "GMRS",
+      freq_number: 462.7000,
+      channel_name: null,
+      channel_number: 21,
+      power: "50 W",
+      bandwidth: "20 kHz",
+      deviation: "5 kHz"    
+    },
+    {
+      id: 49,
+      freq_type: "GMRS",
+      freq_number: 462.7250,
+      channel_name: null,
+      channel_number: 22,
+      power: "50 W",
+      bandwidth: "20 kHz",
+      deviation: "5 kHz"    
+    },
+    {
+      id: 50,
+      freq_type: "GMRS",
+      freq_number: 467.5500,
+      channel_name: null,
+      channel_number: null,
+      power: "50 W",
+      bandwidth: "20 kHz",
+      deviation: "5 kHz"    
+    },
+    {
+      id: 51,
+      freq_type: "GMRS",
+      freq_number: 467.5750,
+      channel_name: null,
+      channel_number: null,
+      power: "50 W",
+      bandwidth: "20 kHz",
+      deviation: "5 kHz"    
+    },
+    {
+      id: 52,
+      freq_type: "GMRS",
+      freq_number: 467.6000,
+      channel_name: null,
+      channel_number: null,
+      power: "50 W",
+      bandwidth: "20 kHz",
+      deviation: "5 kHz"    
+    },
+    {
+      id: 53,
+      freq_type: "GMRS",
+      freq_number: 467.6250,
+      channel_name: null,
+      channel_number: null,
+      power: "50 W",
+      bandwidth: "20 kHz",
+      deviation: "5 kHz"    
+    },
+    {
+      id: 54,
+      freq_type: "GMRS",
+      freq_number: 467.6500,
+      channel_name: null,
+      channel_number: null,
+      power: "50 W",
+      bandwidth: "20 kHz",
+      deviation: "5 kHz"    
+    },
+    {
+      id: 55,
+      freq_type: "GMRS",
+      freq_number: 467.6750,
+      channel_name: null,
+      channel_number: null,
+      power: "50 W",
+      bandwidth: "20 kHz",
+      deviation: "5 kHz"    
+    },
+    {
+      id: 56,
+      freq_type: "GMRS",
+      freq_number: 467.7000,
+      channel_name: null,
+      channel_number: null,
+      power: "50 W",
+      bandwidth: "20 kHz",
+      deviation: "5 kHz"    
+    },
+    {
+      id: 57,
+      freq_type: "GMRS",
+      freq_number: 467.7250,
+      channel_name: null,
+      channel_number: null,
+      power: "50 W",
+      bandwidth: "20 kHz",
+      deviation: "5 kHz"    
+    },
+  ],
+}
